@@ -2,7 +2,7 @@ def coletar_transacoes():
     transacoes = []
     while True:
         print("Questão 2:\n")
-        print('\nInformações do produto:')
+        print('Informações do produto:')
         id_produto = input("  1-Digite o ID do Produto: ")
         nome_produto = input("  2-Digite o Nome do Produto: ")
  

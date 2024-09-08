@@ -8,6 +8,7 @@ from N2_Cobrinha.questao2 import data_por_extenso
 from N3_Python.questao1 import cadastrar_usuario
 from N3_Python.questao2 import coletar_transacoes, vendas_por_produto,exibir_resultados,converter_moeda
 from N3_Python.questao3 import sistema_gerenciamento_senhas
+from N3_Python.questao4 import processar_textos_juridicos
 
 # Menu Principal
 
@@ -74,7 +75,7 @@ while True:
             print("1 - Questão 1 (cadastrar Usuário)")
             print("2 - Questão 2 (Análise de Vendas)")
             print("3 - Questão 3 (Gerenciamento de Senhas)")
-            print("3 - Questão 4 (x)")
+            print("4 - Questão 4 (Análise de contrato)")
             print("5 - Sair do Nível Phython")
 
             questao = input("Digite o número da questão ou aperte para sair (5):\n") 
@@ -89,7 +90,7 @@ while True:
             elif questao == "3":
                 sistema_gerenciamento_senhas()
             elif questao == "4": 
-                sistema_gerenciamento_senhas()
+                processar_textos_juridicos()
             elif questao == "5":
                 break
             else:

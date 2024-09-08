@@ -26,6 +26,7 @@ def validar_telefone(telefone):
 
 
 def cadastrar_usuario(): 
+    print("Questão 1:\n")
     print("Por favor, digite os dados a seguir:")
     
     cpf = input("CPF: ")

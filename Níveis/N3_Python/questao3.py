@@ -2,6 +2,7 @@ import random
 import string
 
 def sistema_gerenciamento_senhas():
+    print("Questão 3:")
     while True:
         print("\nSistema de Gerenciamento de senha:")
         print("1 - Gerar nova senha")
@@ -10,8 +11,7 @@ def sistema_gerenciamento_senhas():
         print("4 - Descriptografar senhas")
         print("5 - Sair")
         opcao = input("Escolha uma opção: ")
-
-        # Definindo todos os caracteres no início
+ 
         letras_maiusculas = string.ascii_uppercase
         letras_minusculas = string.ascii_lowercase
         numeros = string.digits
